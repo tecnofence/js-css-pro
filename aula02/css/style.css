@@ -2,5 +2,9 @@ body {
   background: #0096d6;
   color: white;
   font-family: Arial;
+  text-align: center;
+}
 
+h1 {
+  border-bottom: 2px dotted white;
 }
