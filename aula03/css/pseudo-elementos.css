@@ -1,0 +1,15 @@
+div {
+  color: red;
+}
+
+div::before{
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border: 1px red solid;
+  content: " ";
+}
+
+div::after{
+  content: " em CSS Pro";
+}
