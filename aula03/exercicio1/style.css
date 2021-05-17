@@ -1,0 +1,22 @@
+body{
+    font-size: 50px;
+    color: white;
+    background: #002244;
+    text-align: center;
+    
+   
+}
+
+div::after{
+    content: " - Porto Alegre / RS";
+}
+
+div::before{
+    content: "     ";
+    height: 35px;
+    width: 40px;
+    display: inline-block;
+    background: white;
+    border-left: yellow 10px solid;
+    margin-right: 10px;
+}
