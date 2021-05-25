@@ -1,0 +1,21 @@
+
+body{
+    margin: 0;
+}
+
+.conteudo {
+    border:1px solid orange;
+    width: 300px;
+    height: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+footer {
+    background: #0066cc;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    color:white;
+    width: 100%;
+
+}
