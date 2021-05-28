@@ -1,5 +1,5 @@
 .container{
-    border: 1px solid red;
+  
     width: 400px;
     height: 400px;
     margin: 0 auto;
@@ -9,14 +9,14 @@
 #cubo{
     width: 100px;
     height: 100px;
-    border: 1px solid purple;
+    
 }
 
 #palco{
     perspective: 800px;
 }
 .face{
-    border: 1px solid orange;
+    border-radius: 10px;
     width: 100px;
     height: 80px;
     font-size: 60px;
@@ -34,7 +34,7 @@
 
 .costas{
     background-color: rgba(0, 210, 0, 0.7);
-    transform: rotateY(180deg) translateZ(50dpx);
+    transform: rotateY(180deg) translateZ(50px);
     
 }
 
@@ -60,3 +60,21 @@
     transform: rotateX(-90deg) translateZ(50px);
     
 }
+
+/* Rotação */
+
+#cubo{
+    transform-style: preserve-3d;
+    animation-name: gira;
+    animation-duration: 5s; 
+    animation-iteration-count:infinite;
+    animation-direction: mormal;
+    animation-timing-function: linear;   
+
+}
+@keyframes gira{
+    to {
+        transform: rotate3d(1, 0, 1, 360deg);
+    }
+}
+
