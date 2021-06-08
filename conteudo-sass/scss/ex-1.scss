@@ -1,5 +1,6 @@
+$fundo: orange;
 body{
-    background-color:red;
+    background-color: $fundo;
     div{
         h1{
             font-size: 12px;
